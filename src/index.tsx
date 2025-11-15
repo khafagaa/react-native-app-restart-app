@@ -24,7 +24,7 @@ const AppRestart = NativeModules.AppRestartModule
  * Restarts the application
  *
  * On iOS: Triggers a JS bundle reload
- * On Android: Completely restarts the app by relaunching the main activity
+ * On Android: Completely restarts the whole app by relaunching the main activity
  *
  * @example
  * ```typescript

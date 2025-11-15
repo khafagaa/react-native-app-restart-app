@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/khafagaa/react-native-app-restart-app/main/assets/palestine-support.png" alt="We Stand With Palestine" width="300"/>
+  <img src="https://raw.githubusercontent.com/khafagaa/react-native-app-restart-app/main/assets/we-all-palestine-arabic.webp" alt="We Stand With Palestine" width="300"/>
 </div>
 
 # react-native-app-restart
