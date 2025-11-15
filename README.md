@@ -4,7 +4,8 @@
 
 # react-native-instant-restart
 
-[![npm version](https://badge.fury.io/js/react-native-instant-restart.svg)](https://badge.fury.io/js/react-native-instant-restart)
+[![npm version](https://img.shields.io/npm/v/react-native-instant-restart.svg)](https://www.npmjs.com/package/react-native-instant-restart)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-instant-restart.svg)](https://www.npmjs.com/package/react-native-instant-restart)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight and reliable React Native library to restart your application on both iOS and Android platforms. Perfect for applying language changes, theme switches, or any configuration that requires a fresh app start.
