@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/khafagaa/react-native-app-restart-app/main/assets/we-stand-with-palestine.avif" alt="We Stand With Palestine" width="300"/>
+  <img src="https://raw.githubusercontent.com/khafagaa/react-native-instant-restart/main/assets/we-stand-with-palestine.avif" alt="We Stand With Palestine" width="300"/>
 </div>
 
-# react-native-app-restart
+# react-native-instant-restart
 
-[![npm version](https://badge.fury.io/js/react-native-app-restart.svg)](https://badge.fury.io/js/react-native-app-restart)
+[![npm version](https://badge.fury.io/js/react-native-instant-restart.svg)](https://badge.fury.io/js/react-native-instant-restart)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight and reliable React Native library to restart your application on both iOS and Android platforms. Perfect for applying language changes, theme switches, or any configuration that requires a fresh app start.
@@ -43,9 +43,9 @@ A lightweight and reliable React Native library to restart your application on b
 ### 1. Install the package
 
 ```bash
-npm install react-native-app-restart
+npm install react-native-instant-restart
 # or
-yarn add react-native-app-restart
+yarn add react-native-instant-restart
 ```
 
 ### 2. iOS Setup
@@ -88,7 +88,7 @@ To confirm the library is properly auto-linked:
 npx react-native config
 ```
 
-Look for `react-native-app-restart` in the output with both iOS and Android configurations.
+Look for `react-native-instant-restart` in the output with both iOS and Android configurations.
 
 ---
 
@@ -113,7 +113,7 @@ Only if autolinking doesn't work (very rare), you can manually link:
 Add to your `ios/Podfile`:
 
 ```ruby
-pod 'react-native-app-restart', :path => '../node_modules/react-native-app-restart'
+pod 'react-native-instant-restart', :path => '../node_modules/react-native-instant-restart'
 ```
 
 Then run:
@@ -134,15 +134,15 @@ If autolinking doesn't work, you only need to add the module to your gradle file
 1. Add to `android/settings.gradle`:
 
 ```gradle
-include ':react-native-app-restart'
-project(':react-native-app-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-app-restart/android')
+include ':react-native-instant-restart'
+project(':react-native-instant-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-instant-restart/android')
 ```
 
 2. Add to `android/app/build.gradle`:
 
 ```gradle
 dependencies {
-    implementation project(':react-native-app-restart')
+    implementation project(':react-native-instant-restart')
 }
 ```
 
@@ -155,7 +155,7 @@ That's it! The package will be automatically registered via autolinking. **Do NO
 ## Usage
 
 ```typescript
-import AppRestart from 'react-native-app-restart';
+import AppRestart from 'react-native-instant-restart';
 
 // Restart the app
 const handleLanguageChange = () => {
@@ -270,6 +270,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-If you find this library helpful, please give it a ⭐️ on [GitHub](https://github.com/khafagaa/react-native-app-restart-app)!
+If you find this library helpful, please give it a ⭐️ on [GitHub](https://github.com/khafagaa/react-native-instant-restart)!
 
-For issues and feature requests, please [open an issue](https://github.com/khafagaa/react-native-app-restart-app/issues).
+For issues and feature requests, please [open an issue](https://github.com/khafagaa/react-native-instant-restart/issues).

@@ -1,7 +1,7 @@
 import {NativeModules, Platform} from 'react-native';
 
 const LINKING_ERROR =
-  `The package 'react-native-app-restart' doesn't seem to be linked. Make sure: \n\n` +
+  `The package 'react-native-instant-restart' doesn't seem to be linked. Make sure: \n\n` +
   Platform.select({
     ios: "- Run 'pod install' in the ios/ directory\n",
     default: '',
@@ -28,7 +28,7 @@ const AppRestart = NativeModules.AppRestartModule
  *
  * @example
  * ```typescript
- * import AppRestart from 'react-native-app-restart';
+ * import AppRestart from 'react-native-instant-restart';
  *
  * // Restart the app
  * AppRestart.restart();

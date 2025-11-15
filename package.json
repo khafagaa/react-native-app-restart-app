@@ -1,5 +1,5 @@
 {
-  "name": "react-native-app-restart",
+  "name": "react-native-instant-restart",
   "version": "1.0.0",
   "description": "A lightweight and reliable React Native library to restart your application on both iOS and Android platforms",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
     "lib",
     "android",
     "ios",
-    "react-native-app-restart.podspec",
+    "react-native-instant-restart.podspec",
     "README.md",
     "!**/__tests__",
     "!**/__fixtures__",
@@ -36,9 +36,9 @@
   ],
   "author": "ADIO Mobile",
   "license": "MIT",
-  "homepage": "https://github.com/adio-mobile/react-native-app-restart#readme",
+  "homepage": "https://github.com/khafagaa/react-native-instant-restart#readme",
   "bugs": {
-    "url": "https://github.com/adio-mobile/react-native-app-restart/issues"
+    "url": "https://github.com/khafagaa/react-native-instant-restart/issues"
   },
   "peerDependencies": {
     "react": "*",
@@ -53,6 +53,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adio-mobile/react-native-app-restart.git"
+    "url": "https://github.com/khafagaa/react-native-instant-restart.git"
   }
 }
