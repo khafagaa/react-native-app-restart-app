@@ -1,0 +1,17 @@
+# Source files
+src/
+
+# Config
+tsconfig.json
+
+# Development
+node_modules/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
