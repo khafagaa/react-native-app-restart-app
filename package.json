@@ -4,6 +4,15 @@
   "description": "A React Native library to restart the app on iOS and Android",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "android",
+    "ios",
+    "react-native-app-restart.podspec",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
@@ -33,6 +42,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/adio-mobile/react-native-app-restart.git"
-  },
-  "react-native": "lib/index.js"
+  }
 }
