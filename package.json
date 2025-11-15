@@ -18,6 +18,7 @@
   ],
   "author": "",
   "license": "MIT",
+  "homepage": "https://github.com/khafagaa/react-native-app-restart-app#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -32,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/adio-mobile/react-native-app-restart.git"
-  }
+  },
+  "react-native": "lib/index.js"
 }
