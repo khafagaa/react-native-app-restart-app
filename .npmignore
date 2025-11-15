@@ -12,6 +12,9 @@ node_modules/
 .idea/
 .vscode/
 
+
 # OS
 .DS_Store
+
+
 
